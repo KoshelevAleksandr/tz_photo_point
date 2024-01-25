@@ -1,0 +1,1 @@
+# tz_photo_point
