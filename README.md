@@ -1,10 +1,8 @@
 # tz_photo_point
 tz_photo_point
 
-- Для создания alembic.ini: ```alembic init migrations```
-
-- Создание миграции: ```alembic revision --autogenerate -m "comment"```
-- Применить миграции: ```alembic upgrade heads```
+- Создание миграций: ```python manage.py migrate```
+- Запуск проекта: ```python manage.py runserver```
 
 
 Cоздать "голый" джанго проект, который по переходу на страницу /get-current-usd/ 
