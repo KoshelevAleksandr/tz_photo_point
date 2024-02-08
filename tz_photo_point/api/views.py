@@ -1,7 +1,6 @@
 from rest_framework.decorators import api_view
 
 from .models import Rate
-from .operations import request_currency_rate
 from .serializers import RateSerializer
 from rest_framework.response import Response
 
